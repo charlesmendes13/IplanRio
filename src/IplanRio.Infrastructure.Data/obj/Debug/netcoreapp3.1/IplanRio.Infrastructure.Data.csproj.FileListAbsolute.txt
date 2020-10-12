@@ -1,0 +1,8 @@
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\bin\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.deps.json
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\bin\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\obj\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\obj\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.AssemblyInfo.cs
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\bin\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.runtimeconfig.json
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\bin\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.runtimeconfig.dev.json
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\obj\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.csprojAssemblyReference.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.Data\obj\Debug\netcoreapp3.1\IplanRio.Infrastructure.Data.genruntimeconfig.cache

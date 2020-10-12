@@ -1,0 +1,9 @@
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\bin\Debug\netcoreapp3.1\IplanRio.Domain.deps.json
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\bin\Debug\netcoreapp3.1\IplanRio.Domain.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\bin\Debug\netcoreapp3.1\IplanRio.Domain.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.csprojAssemblyReference.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.AssemblyInfoInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.AssemblyInfo.cs
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.csproj.CoreCompileInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Domain\obj\Debug\netcoreapp3.1\IplanRio.Domain.pdb

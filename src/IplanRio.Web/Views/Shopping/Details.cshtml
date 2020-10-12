@@ -1,0 +1,43 @@
+﻿@model IplanRio.Application.DTO.ShoppingDTO
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Shopping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraAbertura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HoraAbertura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraFechamento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HoraFechamento)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

@@ -1,0 +1,16 @@
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.deps.json
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Application.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Domain.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Infrastructure.Data.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Application.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Domain.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\bin\Debug\netcoreapp2.1\IplanRio.Infrastructure.Data.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.csprojAssemblyReference.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.AssemblyInfoInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.AssemblyInfo.cs
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.csproj.CoreCompileInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.csproj.CopyComplete
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Infrastructure.IoC\obj\Debug\netcoreapp2.1\IplanRio.Infrastructure.IoC.pdb

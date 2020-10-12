@@ -1,0 +1,12 @@
+D:\Visual Studio\IplanRio\src\IplanRio.Application\bin\Debug\netcoreapp2.1\IplanRio.Application.deps.json
+D:\Visual Studio\IplanRio\src\IplanRio.Application\bin\Debug\netcoreapp2.1\IplanRio.Application.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Application\bin\Debug\netcoreapp2.1\IplanRio.Application.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Application\bin\Debug\netcoreapp2.1\IplanRio.Domain.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Application\bin\Debug\netcoreapp2.1\IplanRio.Domain.pdb
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.csprojAssemblyReference.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.AssemblyInfoInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.AssemblyInfo.cs
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.csproj.CoreCompileInputs.cache
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.csproj.CopyComplete
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.dll
+D:\Visual Studio\IplanRio\src\IplanRio.Application\obj\Debug\netcoreapp2.1\IplanRio.Application.pdb
