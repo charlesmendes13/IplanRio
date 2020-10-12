@@ -5,20 +5,11 @@
 // Parameters
 
 var map;
+var infowindow;
 var prefecture;
 var shoppings = [];
 
 $(function () {
-
-    $("#HoraAbertura").keyup(function () {
-
-        $("#HoraAbertura").mask("99:99");
-    });
-
-    $("#HoraFechamento").keyup(function () {
-
-        $("#HoraFechamento").mask("99:99");
-    });
 
     $("#adicionar").click(function () {
 
@@ -28,12 +19,23 @@ $(function () {
     $("#trajeto").click(function () {
 
         getShoppings((data) => {
-                 
+
             var waypts = wayPoints(data);
             var end = endRoute(data);
+            clearInfowindow();
             calcRoute(waypts, end);
         });
     });
+
+    $("#HoraAbertura").keyup(function () {
+
+        $("#HoraAbertura").mask("99:99");
+    });
+
+    $("#HoraFechamento").keyup(function () {
+
+        $("#HoraFechamento").mask("99:99");
+    });   
 
 });
 
@@ -75,15 +77,14 @@ function wayPoints(data) {
 
     for (let i = 0; i < shoppings.length - 1; i++) {
 
-        var name = data.find(x => x.id == shoppings[i]).nome;
-        var address = data.find(x => x.id == shoppings[i]).endereco;
+        var shopping = data.find(x => x.id == shoppings[i]);
 
         waypts.push({
-            location: address,
+            location: shopping.endereco,
             stopover: true,
         });
 
-        infowindow(name, address);
+        infowindows(shopping);
     }
 
     return waypts;
@@ -91,39 +92,52 @@ function wayPoints(data) {
 
 function endRoute(data) {
 
-    var name = data.find(x => x.id == shoppings.slice(-1)[0]).nome;
-    var end = data.find(x => x.id == shoppings.slice(-1)[0]).endereco;
+    var shopping = data.find(x => x.id == shoppings.slice(-1)[0]);
 
-    infowindow(name, end);
+    infowindows(shopping);
 
-    return end;
+    return shopping.endereco;
 }
 
-function infowindow(name, address) {
+function infowindows(shopping) {
 
     geocoder = new google.maps.Geocoder();
 
     if (geocoder) {
-        geocoder.geocode({ address, }, function (results, status) {
+        geocoder.geocode({ address: shopping.endereco }, function (results, status) {
             if (status === 'OK') {
 
                 var content =
                     "<div>" +
-                    "<h5>" + name + "</h5>" +
+                    "<h5>" + shopping.nome + "</h5>" +
                     "<div>" +
-                    "<b>Endereço: </b>" + address +
+                    "<b>Endereço: </b>" + shopping.endereco +
+                    "</div>" +
+                    "<div>" +
+                    "<b>Hora de Abertura: </b>" + shopping.horaAbertura +
+                    "</div>" +
+                    "<div>" +
+                    "<b>Hora de Fechamento: </b>" + shopping.horaFechamento +
                     "</div>" +
                     "</div>";                
 
-                var infowindow = new google.maps.InfoWindow({
+                infowindow = new google.maps.InfoWindow({
                     name: name,
                     content: content,
+                    maxWidth: 200
                 });
 
                 infowindow.setPosition(results[0].geometry.location);
                 infowindow.open(map);
             }
         })
+    }
+}
+
+function clearInfowindow() {
+
+    if (infowindow) {
+        infowindow.close();
     }
 }
 
