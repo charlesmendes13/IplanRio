@@ -13,7 +13,7 @@ body {
 }
 
 /* Set Button in Map */
-.btn {
+#adicionar, #trajeto {
     width: 100%;
     margin: 0 auto;
 }
