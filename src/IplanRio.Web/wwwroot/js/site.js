@@ -58,7 +58,7 @@ function addRoute() {
 
         shoppings.push(value);
 
-        var content = `<tr id="${value}"><td>"${text}"</td></tr>`;
+        var content = `<tr id=${ value }><td>${ text }</td></tr>`;
         $('#tabelaShoppings tbody').append(content);
     }
 }

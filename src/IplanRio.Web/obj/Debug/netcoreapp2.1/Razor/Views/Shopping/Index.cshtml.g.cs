@@ -67,7 +67,7 @@ using IplanRio.Web.Models;
             WriteLiteral("\r\n<h2>Início</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(178, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "300c8aaab47946889abc21a943ede93f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a015296c37fb406784413dc62edd7264", async() => {
                 BeginContext(201, 5, true);
                 WriteLiteral("Criar");
                 EndContext();
@@ -177,7 +177,7 @@ using IplanRio.Web.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1221, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70bfd5cf6f5a4f288cef5bab27f81f40", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16d2daafe9254473997cafca1034989b", async() => {
                 BeginContext(1266, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -212,7 +212,7 @@ using IplanRio.Web.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1296, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e3385bdd3a745a1b60ceddeeaa82ccf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a68c28e6f2fb429184e2b230714d7b31", async() => {
                 BeginContext(1344, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();
@@ -247,7 +247,7 @@ using IplanRio.Web.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1376, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "606cb93909ee48d59871e92590f5f894", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "254d6850e36f4636a42844b4a1ea6038", async() => {
                 BeginContext(1423, 7, true);
                 WriteLiteral("Deletar");
                 EndContext();
